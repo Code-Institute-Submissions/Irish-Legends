@@ -26,3 +26,27 @@ background-color: rgb(73, 179, 140);
     width: 70%;
 }
 
+/* About */
+
+.about-image {
+    background-image: url("../images/clovers.jpg");
+    background-repeat: no-repeat;
+    background-size:cover; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+} 
+
+.about-heading {
+    margin: 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about-image p {
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
