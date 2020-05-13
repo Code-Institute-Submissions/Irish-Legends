@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=ABeeZee|Ruluko&display=swap');
 
+
 /* General styles */
 
 * {
     padding: 0;
     margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
