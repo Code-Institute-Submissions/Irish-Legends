@@ -22,12 +22,7 @@ body {
 background-color: rgb(73, 179, 140);
  }
 
-/*
-.navbar .navbar-nav .nav-item {
-     color: rgb(255, 174, 156);
- } NOT WORKING*/
-
- .navbar-brand {
+.navbar-brand {
     width: 70%;
 }
 
@@ -54,4 +49,5 @@ background-color: rgb(73, 179, 140);
     font-weight: 500;
     letter-spacing: 1px;
 }
+
 
