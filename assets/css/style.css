@@ -50,4 +50,41 @@ background-color: rgb(73, 179, 140);
     letter-spacing: 1px;
 }
 
+/* Stories */
 
+/* Footer */ 
+
+.footer {
+    background-color: rgb(73, 179, 140);
+    color: rgb(214, 253, 239);
+    min-height: 130px;
+    padding-top: 15px;
+}
+
+.btn-submit {
+    background-color: rgb(19, 81, 71);
+}
+
+.socialmedia-wrapper {
+    text-align: center;
+}
+
+.footer-heading {
+    display: inline-block;
+}
+
+.social-links li a i {
+    width: 30px;
+    height: 30px;
+    padding: 8px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    color:  rgb(214, 253, 239);
+    background: rgb(19, 81, 71);
+    transition: 0.25s;
+ } 
+
+ .social-links li a i:hover {
+     transform: scale(1.2);
+ }
