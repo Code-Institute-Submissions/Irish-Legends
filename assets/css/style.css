@@ -16,6 +16,11 @@ body {
     font-family: "Ruluko", sans-serif;
 }
 
+.btn {
+    background-color: rgb(19, 81, 71);
+    border: none;
+}
+
 /* Navbar */
 
 .navbar {
@@ -52,6 +57,25 @@ background-color: rgb(73, 179, 140);
 
 /* Stories */
 
+/* Contact */
+
+.contact-container {
+    padding: 20px 0 40px 0;
+}
+
+.form-field,
+.form-field-text {
+    padding-bottom: 20px;
+}
+
+.form-button {                      /* same style used on social media - group together? */
+    text-align: center;             
+}
+
+.button {
+    display: inline-block;
+}
+
 /* Footer */ 
 
 .footer {
@@ -61,11 +85,11 @@ background-color: rgb(73, 179, 140);
     padding-top: 15px;
 }
 
-.btn-submit {
+/*.btn-submit {
     background-color: rgb(19, 81, 71);
-}
+} */
 
-.socialmedia-wrapper {
+.socialmedia-wrapper {              /* same style used on form - group together? */
     text-align: center;
 }
 
