@@ -31,6 +31,14 @@ background-color: rgb(73, 179, 140);
     width: 70%;
 }
 
+.nav.navbar-nav .nav-link {
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: rgb(214, 253, 239); 
+    margin-right: 10px;  
+}
+
 /* About */
 
 .about-image {
@@ -98,4 +106,12 @@ background-color: rgb(73, 179, 140);
  .social-links li a i:hover {
      transform: scale(1.2);
  }
+
+/* Media queries */
+
+@media (min-width: 768px) {
+    .navbar-brand {
+    width: 50%;
+    }
+}
 
