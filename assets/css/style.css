@@ -55,8 +55,6 @@ background-color: rgb(73, 179, 140);
     letter-spacing: 1px;
 }
 
-/* Stories */
-
 /* Contact */
 
 .contact-container {
@@ -68,14 +66,6 @@ background-color: rgb(73, 179, 140);
     padding-bottom: 20px;
 }
 
-.form-button {                      /* same style used on social media - group together? */
-    text-align: center;             
-}
-
-.button {
-    display: inline-block;
-}
-
 /* Footer */ 
 
 .footer {
@@ -85,11 +75,7 @@ background-color: rgb(73, 179, 140);
     padding-top: 15px;
 }
 
-/*.btn-submit {
-    background-color: rgb(19, 81, 71);
-} */
-
-.socialmedia-wrapper {              /* same style used on form - group together? */
+.socialmedia-wrapper {              
     text-align: center;
 }
 
@@ -112,3 +98,4 @@ background-color: rgb(73, 179, 140);
  .social-links li a i:hover {
      transform: scale(1.2);
  }
+
