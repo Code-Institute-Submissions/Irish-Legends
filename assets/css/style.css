@@ -16,6 +16,11 @@ body {
     font-family: "Ruluko", sans-serif;
 }
 
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
 .btn {
     background-color: rgb(19, 81, 71);
     border: none;
@@ -54,12 +59,6 @@ background-color: rgb(73, 179, 140);
     -o-background-size: cover;
 } 
 
-.about-heading {
-    margin: 15px;
-    font-size: 40px;
-    font-weight: bold;
-}
-
 .about-image p {
     margin: 15px;
     font-size: 20px;
@@ -78,6 +77,11 @@ background-color: rgb(73, 179, 140);
     padding-bottom: 20px;
 }
 
+/* Stories */
+.stories-wrapper {
+    margin: 40px 20px;
+}
+
 /* Footer */ 
 
 .footer {
@@ -90,6 +94,10 @@ background-color: rgb(73, 179, 140);
 .newsletter-wrapper,
 .socialmedia-wrapper {
     padding-top: 15px;
+}
+
+.newsletter-wrapper {
+    margin-left: 5px;
 }
 
 input[type="email"].newsfield {
