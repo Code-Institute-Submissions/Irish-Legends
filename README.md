@@ -1,25 +1,78 @@
-# Your Project's Name
 
-One or two paragraphs providing an overview of your project.
+<img src="assets/images/LongLogo2.png">
+<br>
 
-Essentially, this part is your sales pitch.
- 
-## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+*[Add the responsive site preview here]* 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+---
+# Irish Legends
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+At the time when your  little one forgets to bring their favourite book on a trip and the story time routine is under threat; this site will provide you with collection of the most popular stories to read on the go.
+With an easy access the on phone or tablet an adventure to Ireland of the past has never been easier. 
+
+Get comfy and let yourself to be enchanted by Irish Legends.
+
+---
+
+## UX (User Experience)
+
+### Website Goals
+The site’s intended users are young readers and parents of young readers who enjoy reading stories from Irish Mythology. 
+
+Starting as single page site with a simple navigation and reduced content in order for young reader not to get overloaded with too much information but with a potential for future expansion based on users’ story suggestions.
+
+### User Stories (parents)
+
+* As a user I want the site to be easy to navigate even by my 7 year old (Chris, Dublin)
+* As a user I want the text to be written in nice writing/font (Joanna, Skerries)
+* As a user I want to be able to send feedback or quries (Martin, Naas)
+* As a user I would like an option to receive news email/notification or when new stories are added (Martin, Nass)
+* As a user I want to be able to increase the font size so my daughter can read alongside me (Chris, Dublin)
+* As a user I would like to see your social media posts (Joanna, Skerries)
+
+### Design choices
+
+* I have gone for a minimalistic design for more than a half of the site with only one 
+dominant image on the site in the about section to capture the users attention. 
+* The colours were specifically chosen to to represent Ireland's nature hence the use of different shades of green.
+* Navigation of the site was created with young user in mind but also with the potentional of the expansion of the site. 
+The nav bar is fixed on the top so the user doesn't need to scroll excesively through the page.
+* The font used was chosen to compliment the design and the theme of the overal site.
+
+### Wireframes
+
+Wireframes for this project were created at the beginning of the project using Balsamiq https://balsamiq.com and provided a usefull visual aid for the 
+intended sturcture on diferent devices. 
+After initial discussion with my mentor I diviated from my design slightly. 
+
+In the initial design:
+
+* In About section I was unsure how an image would look like in the backgroung of the section and at the time I was also unable to find a suitable one 
+to match the colour theme of the site. At the end I have opted for visualy pleasing backgroung image. 
+
+* In Stories section I have chosen to display image with carousel slider next to it where the user would navigate through the story by clicking arrow 
+buttons. Instead I have chosen to use card-deck with modal for each story as it provides better user experience (less clicks for the user)
+
+* Considering a user story I have opted for newsletter sign up form which I placed in the footer which is not on the initial design.
+
+* I have decided not to use pink colour other than in Logo 
+
+Wireframes and colour composition can be found at the below location
+
+*[insrt links here]*
 
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+* **Navigation Bar** - responsive navigation bar that enables the user to navigate through the site
+* **About Section** - provides user with brief comntary on Irish Mythology
+* **Stories Section** - responsive section containig stories for users to read
+* **Modals** - each story is contained in scrollable modal to ensure positive UX
+* **Contact Form** - allows user to to contribute to the content of the site or comment 
+* **Subscribe Form** - allows user to subscribe to newswletter to receive latest updates
+* **Social Media Links** - allow users to stay connected on social media 
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
@@ -58,14 +111,32 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+To deploy this page to GitHub Pages from [its GitHub repository](https://anabear.github.io/ZestyTails/), the following steps were taken:
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+1. On GitHub, navigate to the site's repository.
+2. Under the repository name, click on **Settings**.
+3. Scroll down to the **GitHub Pages** section.
+4. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**.
+5. On selecting **Master Branch** the page is automatically refreshed, the website is now deployed.
+6. A green box should appear with the following message 
+`Your site is ready to be published at https://anabear.github.io/ZestyTails/.`
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+For more information on how to deploy a website on GitHub, [please visit this website](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+
+### How to run this project locally
+
+To clone this project from GitHub:
+
+1. On GitHub, navigate to the main page of the repository.
+2. Under the repository name, click **Clone or download**.
+3. In the **Clone with HTTPs** section, copy the clone URL for the repository.
+4. Open Terminal.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+   `git clone https://github.com/anabear/ZestyTails.git`
+7. Press **Enter**. Your local clone will be created.
+
+For further reading and troubleshooting on cloning a repository [from GitHub](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 
 ## Credits
