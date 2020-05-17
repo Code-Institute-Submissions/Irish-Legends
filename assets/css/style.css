@@ -39,6 +39,10 @@ background-color: rgb(73, 179, 140);
     margin-right: 10px;  
 }
 
+/*.nav.navbar-nav .nav-link:hover {
+    color: rgb(19, 81, 71);
+} */
+
 /* About */
 
 .about-image {
@@ -81,6 +85,15 @@ background-color: rgb(73, 179, 140);
     color: rgb(214, 253, 239);
     min-height: 130px;
     padding-top: 15px;
+}
+
+.newsletter-wrapper,
+.socialmedia-wrapper {
+    padding-top: 15px;
+}
+
+input[type="email"].newsfield {
+    width: 300px;
 }
 
 .socialmedia-wrapper {              
