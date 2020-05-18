@@ -12,6 +12,8 @@ With an easy access the on phone or tablet an adventure to Ireland of the past h
 
 Get comfy and let yourself to be enchanted by Irish Legends.
 
+Live demo of this site [here](https://janabuckova.github.io/Irish-Legends/)
+
 ---
 
 ## UX (User Experience)
@@ -41,7 +43,7 @@ The nav bar is fixed on the top so the user doesn't need to scroll excesively th
 
 ### Wireframes
 
-Wireframes for this project were created at the beginning of the project using Balsamiq https://balsamiq.com and provided a usefull visual aid for the 
+Wireframes for this project were created at the beginning of the project using [Balsamiq](https://balsamiq.com) and provided a usefull visual aid for the 
 intended sturcture on diferent devices. 
 After initial discussion with my mentor I diviated from my design slightly. 
 
@@ -59,9 +61,9 @@ buttons. Instead I have chosen to use card-deck with modal for each story as it 
 
 Wireframes and colour composition can be found at the below location.
 
-* [Desktop](assets/wireframes/desktop.pdf "Desktop")
-* [Tablet](assets/wireframes/tablet.pdf "Tablet")
-* [Mobile](assets/wireframes/mobile.pdf "Mobile")
+* [Desktop](wireframes/desktop.pdf "Desktop")
+* [Tablet](wireframes/tablet.pdf "Tablet")
+* [Mobile](wireframes/mobile.pdf "Mobile")
 * [Colour-composition](assets/wireframes/Colour-composition.pdf "Colours")
 
 ## Features
@@ -137,8 +139,9 @@ To deploy this page to GitHub Pages from [its GitHub repository](https://anabear
 3. Scroll down to the **GitHub Pages** section.
 4. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**.
 5. On selecting **Master Branch** the page is automatically refreshed, the website is now deployed.
-6. A green box should appear with the following message 
-`Your site is ready to be published at https://anabear.github.io/ZestyTails/.`
+6. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
+7. A green box should appear with the following message 
+Your site is published at `https://janabuckova.github.io/Irish-Legends/`
 
 For more information on how to deploy a website on GitHub, [please visit this website](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
@@ -147,12 +150,12 @@ For more information on how to deploy a website on GitHub, [please visit this we
 To clone this project from GitHub:
 
 1. On GitHub, navigate to the main page of the repository.
-2. Under the repository name, click **Clone or download**.
+2. Under the repository name, click the green button **Clone or download**.
 3. In the **Clone with HTTPs** section, copy the clone URL for the repository.
 4. Open Terminal.
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type `git clone`, and then paste the URL you copied in Step 3.
-   `git clone https://github.com/anabear/ZestyTails.git`
+   `git clone https://janabuckova.github.io/Irish-Legends/.git`
 7. Press **Enter**. Your local clone will be created.
 
 For further reading and troubleshooting on cloning a repository [from GitHub](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
@@ -164,7 +167,7 @@ For further reading and troubleshooting on cloning a repository [from GitHub](ht
 The content in Stories section was copied from books Irish Legends for children [Gill Books](https://www.gillbooks.ie/) and Best-Loved Irish Legends [The O'Biern Press](https://www.obrien.ie/) 
 
 ### Media
-- The photos used in this site were obtained from:
+The photos used in this site were obtained from:
  * [Shutterstock](https://www.shutterstock.com/home)
  * [Pixabay](https://pixabay.com/images) - Clipart for Stories images
  * [Sketchpad 5.1](https://sketch.io) - Stories images created by me using inbuilt Clipart Library
