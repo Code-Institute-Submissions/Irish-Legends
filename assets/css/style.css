@@ -54,7 +54,8 @@ background-color: rgb(73, 179, 140);
     background-image: url("../images/clovers.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    height: 140%;
+    /* advice on Slack for Ljupko Jurevic's project, use vh - not responsive on tablet or mobile */
+    height: 90vh;
     margin: 40px 5px;
     padding-bottom: 30px;
  }
@@ -71,9 +72,9 @@ background-color: rgb(73, 179, 140);
 
 .cover-about p {
     margin: 10px;
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 1px;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
 } 
 
 /* Contact */
@@ -143,6 +144,8 @@ input[type="email"].newsfield {
  }
 
 /* Media queries */
+
+/*responsive logo - on tablet - https://getbootstrap.com/docs/4.1/layout/overview/ */
 
 @media (min-width: 768px) {
     .navbar-brand {
