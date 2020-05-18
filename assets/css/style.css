@@ -137,11 +137,17 @@ input[type="email"].newsfield {
     text-align: center;
     color:  rgb(214, 253, 239);
     background: rgb(19, 81, 71);
+    /* Added/replaced after css ran in Autoprefixer */
+    -webkit-transition: 0.25s; 
+    -o-transition: 0.25s;
     transition: 0.25s;
  } 
 
  .social-links li a i:hover {
-     transform: scale(1.2);
+     /* Added/replaced after css ran in Autoprefixer */
+     -webkit-transform: scale(1.2);
+         -ms-transform: scale(1.2);
+             transform: scale(1.2);
  }
 
 /* Media queries */
@@ -167,4 +173,6 @@ input[type="email"].newsfield {
     }
 
 }
+
+
 

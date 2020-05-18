@@ -62,6 +62,7 @@ Wireframes and colour composition can be found at the below location.
 * [Desktop](assets/wireframes/desktop.pdf "Desktop")
 * [Tablet](assets/wireframes/tablet.pdf "Tablet")
 * [Mobile](assets/wireframes/mobile.pdf "Mobile")
+* [Colour-composition](assets/wireframes/Colour-composition.pdf "Colours")
 
 ## Features
 
