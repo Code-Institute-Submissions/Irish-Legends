@@ -55,7 +55,7 @@ background-color: rgb(73, 179, 140);
     background-repeat: no-repeat;
     background-position: center;
     /* advice on Slack for Ljupko Jurevic's project, use vh - not responsive on tablet or mobile */
-    height: 90vh;
+    height: 80vh;
     margin: 40px 5px;
     padding-bottom: 30px;
  }
