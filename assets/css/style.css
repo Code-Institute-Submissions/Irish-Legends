@@ -159,7 +159,7 @@ input[type="email"].newsfield {
     }
 }
 
-@media (min-width: 1270px) {
+/*@media (min-width: 1270px) {
     
     .about-image {
         height: 85vh;
@@ -171,7 +171,19 @@ input[type="email"].newsfield {
         letter-spacing: 1.2px;
     }
 
+}*/
+
+@media (min-width: 1440px) {
+    
+    .about-image {
+        height: 75vh;
+    }
+
+    .cover-about p {
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: 1.1px;
+    }
+
 }
-
-
 
