@@ -59,7 +59,9 @@ buttons. Instead I have chosen to use card-deck with modal for each story as it 
 
 Wireframes and colour composition can be found at the below location.
 
-*[insrt links here]*
+* [Desktop](assets/wireframes/desktop.pdf "Desktop")
+* [Tablet](assets/wireframes/tablet.pdf "Tablet")
+* [Mobile](assets/wireframes/mobile.pdf "Mobile")
 
 ## Features
 
@@ -72,19 +74,37 @@ Wireframes and colour composition can be found at the below location.
 * **Subscribe Form** - allows user to subscribe to newswletter to receive latest updates
 * **Social Media Links** - allow users to stay connected on social media 
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
-- Another feature idea
+* **Additional Page** - When the site receives more interest and user would like to see more stories
+a separate page would be added
+* **Font Increase** - Based on the UX story a font size increase would be added
+* **Font Change** - I would like to look into a posibility of changing font on modals depending on the reader
+(e.g. dyslexic friendly)
+* **Audio Version of Stories** - Depending on user's interest I would like to add and audio version of stories
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+  - This project used HTML5 for building the structure of the site
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) 
+  - This project used CSS3 for styling of the site
+* [Bootstrap](https://getbootstrap.com/) 
+  - This project used Bootstrap - CSS framework responsiveness of the site
+* [Google Fonts](https://fonts.google.com/) 
+  - This project used Google Fonts library for customised font
+* [Font Awesome](https://fontawesome.com/) 
+  - This project used Font Awsome icon toolkit for Social Media Logos
+* [jQuery](https://jquery.com/) 
+  - This project used jQuery reference Javascript needed for the responsive navbar 
+* [Popper.js](https://popper.js.org/) 
+  - This project used Popper.js to reference Javascript needed for the responsive navbar and modal for the story cards
+* [GitPod](https://code.visualstudio.com/) 
+  - This project used GitPod - IDE for local developement
+* [GIT](https://git-scm.com/) 
+  - This project used GitPod for version control
+* [GitHub](https://github.com/) 
+  - This project used GitHup for hosting the repository and the live website preview
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
 
 
 ## Testing
