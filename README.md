@@ -48,23 +48,21 @@ After initial discussion with my mentor I diviated from my design slightly.
 In the initial design:
 
 * In About section I was unsure how an image would look like in the backgroung of the section and at the time I was also unable to find a suitable one 
-to match the colour theme of the site. At the end I have opted for visualy pleasing backgroung image. 
+to match the colour theme of the site. At the end I have opted for visualy pleasing background image. 
 
 * In Stories section I have chosen to display image with carousel slider next to it where the user would navigate through the story by clicking arrow 
-buttons. Instead I have chosen to use card-deck with modal for each story as it provides better user experience (less clicks for the user)
+buttons. Instead I have chosen to use card-deck with modal for each story as it provides better user experience (less clicks for the user).
 
 * Considering a user story I have opted for newsletter sign up form which I placed in the footer which is not on the initial design.
 
-* I have decided not to use pink colour other than in Logo 
+* I have decided not to use pink colour other than in Logo. 
 
-Wireframes and colour composition can be found at the below location
+Wireframes and colour composition can be found at the below location.
 
 *[insrt links here]*
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### Existing Features
 * **Navigation Bar** - responsive navigation bar that enables the user to navigate through the site
 * **About Section** - provides user with brief comntary on Irish Mythology

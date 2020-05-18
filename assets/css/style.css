@@ -44,27 +44,37 @@ background-color: rgb(73, 179, 140);
     margin-right: 10px;  
 }
 
-/*.nav.navbar-nav .nav-link:hover {
+.nav.navbar-nav .nav-link:hover {
     color: rgb(19, 81, 71);
-} */
+}
 
 /* About */
 
 .about-image {
     background-image: url("../images/clovers.jpg");
     background-repeat: no-repeat;
-    background-size:cover; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-} 
+    background-position: center;
+    height: 140%;
+    margin: 40px 5px;
+    padding-bottom: 30px;
+ }
 
-.about-image p {
-    margin: 15px;
+.cover-about {
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.cover-about h2 {
+    padding: 20px;
+}
+
+.cover-about p {
+    margin: 10px;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 1px;
-}
+} 
 
 /* Contact */
 
@@ -80,6 +90,10 @@ background-color: rgb(73, 179, 140);
 /* Stories */
 .stories-wrapper {
     margin: 40px 20px;
+}
+
+.stories-heading {
+    margin-bottom: 20px;
 }
 
 /* Footer */ 

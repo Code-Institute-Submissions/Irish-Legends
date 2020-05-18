@@ -49,47 +49,45 @@
             </nav>
         </header>
 
-        <!-- About Section -->
+        <!--About Section-->
         <section class="container-fluid" id="about">
-            <div class="row">
-                <div class="col container-fluid about-image">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h2 class="about-heading">About</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                nisi ut aliquip ex ea commodo . Duis aute irure dolor in re
-                                fugiat nulla pariatur.</p>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                                qui officia deserunt mollit anim id est laborum. Lorem ipsum
-                                dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis autptate velit esse cillum
-                                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                                aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.</p>
-                        </div>
+            <div class="about-image">
+                <div class="cover-about">
+                    <div class="about-heading">
+                        <h2>About</h2>
                     </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo . Duis aute irure dolor in re
+                        fugiat nulla pariatur.</p>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis autptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                        aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.</p>
                 </div>
             </div>
         </section>
         <!-- End of About Section -->
 
         <!-- Stories Section Card deck from bootstrap -->
-        <section class="container-fluid" id="stories">
+        <section class="container-fluid">
             <div class="stories-wrapper">
                 <div class="row">
-                    <div class="col-12">
-                        <h2 class="stories-heading">Stories</h2>
+                    <div class="col-12 stories-heading" id="stories">
+                        <h2 class="text-center">Stories</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -104,6 +102,8 @@
                                     will come true
                                 </p>
                                 <!-- Button trigger modal Deirdre -->
+                                <!-- Help with centering button on small devices - used on all modal buttons
+                                https://stackoverflow.com/questions/50744958/align-content-to-center-on-small-device-bootstrap4 -->
                                 <div class="text-center text-md-left">
                                     <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#deirdrestory">
                                         Read story
