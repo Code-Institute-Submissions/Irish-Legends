@@ -161,10 +161,14 @@ For further reading and troubleshooting on cloning a repository [from GitHub](ht
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+The content in Stories section was copied from books Irish Legends for children [Gill Books](https://www.gillbooks.ie/) and Best-Loved Irish Legends [The O'Biern Press](https://www.obrien.ie/) 
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from:
+ * [Shutterstock](https://www.shutterstock.com/home)
+ * [Pixabay](https://pixabay.com/images) - Clipart for Stories images
+ * [Sketchpad 5.1](https://sketch.io) - Stories images created by me using inbuilt Clipart Library
+ * [Logomakr](https://logomakr.com/) - Site logo created by me using inbuilt Library
 
 ### Acknowledgements
 
