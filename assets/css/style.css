@@ -44,6 +44,10 @@ background-color: rgb(73, 179, 140);
     margin-right: 10px;  
 }
 
+.navbar .navbar-toggler {
+    border: none;
+}
+
 .nav.navbar-nav .nav-link:hover {
     color: rgb(19, 81, 71);
 }
@@ -54,27 +58,24 @@ background-color: rgb(73, 179, 140);
     background-image: url("../images/clovers.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    /* advice on Slack for Ljupko Jurevic's project, use vh - not responsive on tablet or mobile */
-    height: 80vh;
+    /* advice on Slack for Ljupko Jurevic's project, used 80vh - not responsive on tablet or mobile, creadted media query for larger devices */
+    height: 160%;
     margin: 40px 5px;
-    padding-bottom: 30px;
  }
 
 .cover-about {
-    margin-top: 30px;
     text-align: center;
     color: #fff;
 }
-
-.cover-about h2 {
-    padding: 20px;
-}
+.about-heading h2 {
+    padding-top: 15px;
+} 
 
 .cover-about p {
-    margin: 10px;
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
     letter-spacing: 1.2px;
+    padding: 0 5px 0 5px;
 } 
 
 /* Contact */
@@ -151,5 +152,19 @@ input[type="email"].newsfield {
     .navbar-brand {
     width: 50%;
     }
+}
+
+@media (min-width: 1270px) {
+    
+    .about-image {
+        height: 85vh;
+    }
+    
+    .cover-about p {
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+    }
+
 }
 
