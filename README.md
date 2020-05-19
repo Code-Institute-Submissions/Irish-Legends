@@ -10,7 +10,7 @@ With an easy access the on phone or tablet an adventure to Ireland of the past h
 
 Get comfy and let yourself to be enchanted by Irish Legends.
 
-*[Add the responsive site preview here]* 
+![](testing/responsive.PNG)
 
 Live demo of this site [here](https://janabuckova.github.io/Irish-Legends/)
 
