@@ -17,7 +17,7 @@ body {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -54,6 +54,10 @@ background-color: rgb(73, 179, 140);
 
 /* About */
 
+.about-heading {
+    padding-top: 45px;
+} 
+
 .about-image {
     background-image: url("../images/clovers.jpg");
     background-repeat: no-repeat;
@@ -61,15 +65,13 @@ background-color: rgb(73, 179, 140);
     /* advice on Slack for Ljupko Jurevic's project, used 80vh - not responsive on tablet or mobile, creadted media query for larger devices */
     height: 160%;
     margin: 40px 5px;
- }
+}
 
 .cover-about {
     text-align: center;
     color: #fff;
+    padding-top: 30px;
 }
-.about-heading h2 {
-    padding-top: 15px;
-} 
 
 .cover-about p {
     font-size: 20px;
@@ -77,24 +79,33 @@ background-color: rgb(73, 179, 140);
     padding: 0 5px 0 5px;
 } 
 
+/* Stories */
+.stories-wrapper {
+    margin: 40px 20px;
+    padding-top: 20px;
+}
+
+.wrapper1 {
+    padding-top: 20px;
+}
+
+.stories-heading {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
 /* Contact */
 
 .contact-container {
     padding: 20px 0 40px 0;
 }
+.contact-heading {
+    padding-bottom: 10px;
+}
 
 .form-field,
 .form-field-text {
     padding-bottom: 20px;
-}
-
-/* Stories */
-.stories-wrapper {
-    margin: 40px 20px;
-}
-
-.stories-heading {
-    margin-bottom: 20px;
 }
 
 /* Footer */ 
@@ -158,20 +169,6 @@ input[type="email"].newsfield {
     width: 50%;
     }
 }
-
-/*@media (min-width: 1270px) {
-    
-    .about-image {
-        height: 85vh;
-    }
-    
-    .cover-about p {
-        font-size: 25px;
-        font-weight: 600;
-        letter-spacing: 1.2px;
-    }
-
-}*/
 
 @media (min-width: 1440px) {
     

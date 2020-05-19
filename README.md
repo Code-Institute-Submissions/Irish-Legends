@@ -64,7 +64,7 @@ Wireframes and colour composition can be found at the below location.
 * [Desktop](wireframes/desktop.pdf "Desktop")
 * [Tablet](wireframes/tablet.pdf "Tablet")
 * [Mobile](wireframes/mobile.pdf "Mobile")
-* [Colour-composition](assets/wireframes/Colour-composition.pdf "Colours")
+* [Colour-composition](assets/wireframes/colour-composition.pdf "Colours")
 
 ## Features
 
@@ -92,15 +92,11 @@ a separate page would be added
 * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) 
   - This project used CSS3 for styling of the site
 * [Bootstrap](https://getbootstrap.com/) 
-  - This project used Bootstrap - CSS framework responsiveness of the site
+  - This project used Bootstrap - CSS framework responsiveness of the site, including Javascript plugins
 * [Google Fonts](https://fonts.google.com/) 
   - This project used Google Fonts library for customised font
 * [Font Awesome](https://fontawesome.com/) 
   - This project used Font Awsome icon toolkit for Social Media Logos
-* [jQuery](https://jquery.com/) 
-  - This project used jQuery reference Javascript needed for the responsive navbar 
-* [Popper.js](https://popper.js.org/) 
-  - This project used Popper.js to reference Javascript needed for the responsive navbar and modal for the story cards
 * [GitPod](https://code.visualstudio.com/) 
   - This project used GitPod - IDE for local developement
 * [GIT](https://git-scm.com/) 
@@ -111,6 +107,72 @@ a separate page would be added
 
 
 ## Testing
+
+Thoughout the project I have rellied on Chrome and Opera Developer tools which had proven to be invaluable for testing on responsiveness on different devices.
+
+I have validated the HTML adn CSS code in [W3C Markup Validation](https://validator.w3.org/) and [W3C CSS validation](https://jigsaw.w3.org/css-validator/), the results are enclosed [here](testing/w3c-validatio.pdf "Validation")
+To validate the code I clicked on the provided link and in the tab validate by URL I entered url of my site. (e.g https://janabuckova.github.io/Irish-Legends)
+
+
+## Testing user Stories - implemented features
+
+The testing was completed in Chrome Opera, Firefox, Edge and IE on laptop.
+
+1. Navigation of the site
+  * From Navigation bar I clicked each navigation link
+  * Links worked and took user to the appropriate section of the site
+  * Navigation bar stayed fixed to the top to ensure easy navigaton without too much scrolling
+
+2. Font choice rendered
+  * The chosen Font Ruloko rendered in all browsers 
+  * The media query for laptop and desktop for font increase worked as expected
+
+3. Contact Form
+ * From navigation bar clicked 'Contact'
+ * Tried to submit the empty form and verified that an error message about the required fields appeared
+ * Tried to submit the form with an invalid email address and verified that a relevant error message appears
+ * After all fields were populated tried to 'Submit' the form. 403 error message appeared due to the fact the 'Action' and 'Method'
+attribute were not include in the design of the form. (not a requirement of this project)
+
+ * **Observation** - Firefox browser doesn't provide user with the message how correct email address should look like (contain @), only 'Please enter and email address'
+From experience with my father I can confirm this can be little confusing for older users who are not used to forms and only use email on tablet or phone by clicking an email icon. 
+This should be taken into consderatin when designing websites in general. A proper placaceholder would make the user experience more positive. Note to myself **Think of the intended user** (younger/older audience)
+
+4. Subscribe Form
+  * From footer section tried to submit the form with an invalid email address and verified that a relevant error message appears
+  * After the field was populated tried to 'Submit' the form. 404 error message appeared due to the fact the 'Action' and 'Method'
+
+5. Social Media
+ * From footer section clickd on each social media icon and was redirected to the appropriate social media site
+ * As designed each social media site opened in a new tab 
+ * Same **Observation** as above applies
+
+ ## Testing other features
+ 
+ Tested on desktop, tablet, mobile using Developer tools and in real mobile enviroment using **OnePlus 3**, **Samsung Galaxy A3** and tablet **Samsung Galaxy Tab A** 
+
+1. Navigation bar logo - resizing
+ * When site vieview on mobile and tablet verified that th logo is responsive and resizing on smaller screen
+
+2. Toggler/Hamburger menu
+ * On moblil device the navigation bar was designed to colapse into a Toggler
+ * Tested and verified that the toggler appeared as intended on smaller and larger mobile scren 
+
+3. Modals in Stories section
+  * Clicked each button and verified that modal window appered as designed. Large modal on desktop and tablet held horizontally. 
+  Small modal on tablet held vertically and mobile
+
+4. Smooth Scroll
+ * Verified that works as intended with exception of IE (not working at all). Also when tested in Edge and the Firefox the scroll is so quick that almost appears as 'jump'
+
+
+
+
+
+
+
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
