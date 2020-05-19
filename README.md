@@ -64,7 +64,7 @@ Wireframes and colour composition can be found at the below location.
 * [Desktop](wireframes/desktop.pdf "Desktop")
 * [Tablet](wireframes/tablet.pdf "Tablet")
 * [Mobile](wireframes/mobile.pdf "Mobile")
-* [Colour-composition](assets/wireframes/colour-composition.pdf "Colours")
+* [Colour-composition](wireframes/colour-composition.pdf "colour-composition")
 
 ## Features
 
@@ -116,11 +116,12 @@ To validate the code I clicked on the provided link and in the tab validate by U
 
 ## Testing user Stories - implemented features
 
-The testing was completed in Chrome Opera, Firefox, Edge and IE on laptop.
+The testing was completed in Chrome Opera, Firefox, Edge and IE on laptop. I do now own any Apple device and
+therefore was unable to test Safari browser.
 
 1. Navigation of the site
   * From Navigation bar I clicked each navigation link
-  * Links worked and took user to the appropriate section of the site
+  * Links worked and navigated to the appropriate section of the site
   * Navigation bar stayed fixed to the top to ensure easy navigation without too much scrolling
 
 2. Font choice rendered
@@ -131,7 +132,7 @@ The testing was completed in Chrome Opera, Firefox, Edge and IE on laptop.
  * From navigation bar clicked 'Contact'
  * Tried to submit the empty form and verified that an error message about the required fields appeared
  * Tried to submit the form with an invalid email address and verified that a relevant error message appears
- * After all fields were populated tried to 'Submit' the form. 403 error message appeared due to the fact the 'Action' and 'Method'
+ * After all fields were populated tried to 'Submit' the form. 404 error message appeared due to the fact the 'Action' and 'Method'
 attribute were not include in the design of the form. (not a requirement of this project)
 
  * **Observation** - Firefox browser doesn't provide user with the message how correct email address should look like (contain @), only 'Please enter and email address'
@@ -168,7 +169,7 @@ This should be taken into consideration when designing websites in general. A pr
 ## Testing Responsiveness
 
 The responsiveness was tested in real mobile environment using **OnePlus 3**, **Samsung Galaxy A3** and tablet **Samsung Galaxy Tab A**.
-In addition, I used Developer tools and 14" and 15.6" laptops.
+In addition, I used Developer tools for different devices and 14" and 15.6" laptops.
 
 1. **On mobile** I am very satisfied with the overall responsiveness as the content fits nicely on both smaller and larger mobile screens. Everything is aligned to center, cards are placed vertically in single column. Just very nice experience.
 * Observation - In case when more stories are added to the site there would be extensive scrolling through the site and therefore a dropdown menu in navigation bar should be considered. 
@@ -229,6 +230,7 @@ The photos used in this site were obtained from:
  * [Pixabay](https://pixabay.com/images) - Clipart for Stories images
  * [Sketchpad 5.1](https://sketch.io) - Stories images created by me using inbuilt Clipart Library
  * [Logomakr](https://logomakr.com/) - Site logo created by me using inbuilt Library
+ * [TinyJPG](https://tinyjpg.com/) - Used to compress images
 
 ### Acknowledgements
 
