@@ -2,8 +2,6 @@
 <img src="assets/images/LongLogo2.png">
 <br>
 
-*[Add the responsive site preview here]* 
-
 ---
 # Irish Legends
 
@@ -11,6 +9,8 @@ At the time when your  little one forgets to bring their favourite book on a tri
 With an easy access the on phone or tablet an adventure to Ireland of the past has never been easier. 
 
 Get comfy and let yourself to be enchanted by Irish Legends.
+
+*[Add the responsive site preview here]* 
 
 Live demo of this site [here](https://janabuckova.github.io/Irish-Legends/)
 
@@ -170,19 +170,17 @@ This should be taken into consideration when designing websites in general. A pr
 The responsiveness was tested in real mobile environment using **OnePlus 3**, **Samsung Galaxy A3** and tablet **Samsung Galaxy Tab A**.
 In addition, I used Developer tools and 14" and 15.6" laptops.
 
-* **On mobile** I am very satisfied with the overall responsiveness as the content fits nicely on both smaller and larger mobile screens. Everything is aligned to center, cards are placed vertically in single column. Just very nice experience.
+1. **On mobile** I am very satisfied with the overall responsiveness as the content fits nicely on both smaller and larger mobile screens. Everything is aligned to center, cards are placed vertically in single column. Just very nice experience.
 * Observation - In case when more stories are added to the site there would be extensive scrolling through the site and therefore a dropdown menu in navigation bar should be considered. 
 Potentially as mentioned above the stories should be placed on separate page and navigation link should be used to 'take' user to the relevant page
 
-
-* **On tablets** the responsiveness is good both on horizontal and vertical view. The content is aligned and displays well. there is enough space between cards in vertical view and the content in not 'squished'.
+2. **On tablets** the responsiveness is good both on horizontal and vertical view. The content is aligned and displays well. there is enough space between cards in vertical view and the content in not 'squished'.
 The Sign Up form for newsletter in footer - input field and submit button are displayed next to each other and the Input field is wide enough on real device which was initially a concern.
 * **Bug** - In both vertical and horizontal views the buttons (Read story) triggering the modal are not aligned. I have used alignment to left on medium and large screen and center on small but 
 was unable to position the buttons to left bottom on medium size screens. This feature to be addressed in the future.
 * Observation - I would like to get feedback from multiple users - using different tablets. Considering displaying stories in 2 columns on tablets
 
-
-* **On Laptop and Desktop**
+3. **On Laptop and Desktop**
 * Considering the reduced amount of content on laptop screens tested (13” and 15.6”) the site displays well, better than on tablet (in my opinion) Though the content is targeted for mobile and tablet.
 * **Bug/Observation** -I have also used [Responsive Checker](https://www.responsivedesignchecker.com/) to test larger screens and from 20” up the site didn’t render well. The is not enough content to cover the background image. I have used media query to reduce the image height, 
 but the image still stayed quite large. Is the screen expands the Stories section in particular became unappealing and the overall site gave feeling of being ‘bare’.
@@ -240,3 +238,4 @@ I would like thank my felow students on [Code Institute](https://codeinstitute.n
 
 ### Disclaimer
 Irish Legends is a fictional story reading site. Content of the stories mentioned was used for educational purposes and is Cpyrighted by the publishing companies.
+For this reason I did not put a Copyright into my footer page.
