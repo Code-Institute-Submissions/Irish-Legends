@@ -110,7 +110,8 @@ a separate page would be added
 
 Throughout the project I have relied on Chrome and Opera Developer tools which had proven to be invaluable for testing on responsiveness on different devices.
 
-I have validated the HTML and CSS code in [W3C Markup Validation](https://validator.w3.org/) and [W3C CSS validation](https://jigsaw.w3.org/css-validator/), the results are enclosed [here](testing/w3c-validatio.pdf "Validation")
+I have validated the HTML and CSS code in [W3C Markup Validation](https://validator.w3.org/) and [W3C CSS validation](testing/w3c-validation.pdf), the results 
+are enclosed [here](testing/w3c-validation.pdf "Validation")
 To validate the code I clicked on the provided link and in the tab validate by URL I entered url of my site. (e.g. https://janabuckova.github.io/Irish-Legends)
 
 
@@ -240,4 +241,4 @@ I would like thank my felow students on [Code Institute](https://codeinstitute.n
 
 ### Disclaimer
 Irish Legends is a fictional story reading site. Content of the stories mentioned was used for educational purposes and is Cpyrighted by the publishing companies.
-For this reason I did not put a Copyright into my footer page.
+For this reason I did not put a Copyright into footer of my site.
